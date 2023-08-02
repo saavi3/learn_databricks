@@ -3,10 +3,6 @@ print("I am the child notebook")
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
 # MAGIC %md 
 # MAGIC #Wideget utilities
 
