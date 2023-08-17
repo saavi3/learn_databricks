@@ -18,7 +18,3 @@ from pyspark.sql.functions import date_format
 
 customer_from = date_format('customer_from', 'yyyyMMdd').cast('int').alias('customer_from')
 users_df.select('id', full_name, customer_from).show()
-
-# COMMAND ----------
-
-

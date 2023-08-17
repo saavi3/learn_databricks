@@ -32,7 +32,6 @@ help(concat_ws)
 
 # COMMAND ----------
 
-
 employeeDF.\
     withColumn('full_name', concat_ws(', ', 'first_name', 'last_name')).\
     show()
@@ -62,7 +61,3 @@ employeeDF.\
 employeeDF.\
     withColumn('nationality_length', length('nationality')).\
     show()
-
-# COMMAND ----------
-
-

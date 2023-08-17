@@ -3,10 +3,6 @@ ages_list = [21,23,18,42,41,32]
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
 type(ages_list)
 
 # COMMAND ----------
@@ -40,7 +36,3 @@ from pyspark.sql.types import StringType
 # COMMAND ----------
 
 spark.createDataFrame(name_list, StringType())
-
-# COMMAND ----------
-
-

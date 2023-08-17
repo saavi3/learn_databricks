@@ -37,19 +37,3 @@ employeeDF.withColumn('Nationality', lower('Nationality')).show()
 # COMMAND ----------
 
 employeeDF.select( '*', lower('Nationality')).show()
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-

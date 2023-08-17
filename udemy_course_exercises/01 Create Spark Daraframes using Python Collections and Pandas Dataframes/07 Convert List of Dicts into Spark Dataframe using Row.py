@@ -79,7 +79,3 @@ dummy(user_id = 1, user_first_name = 'Scott')
 # COMMAND ----------
 
 dummy(**users_details)
-
-# COMMAND ----------
-
-

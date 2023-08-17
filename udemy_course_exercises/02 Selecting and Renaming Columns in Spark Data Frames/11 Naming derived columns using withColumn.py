@@ -3,10 +3,6 @@
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
 from pyspark.sql.functions import concat,lit, col
 
 # COMMAND ----------
@@ -49,11 +45,3 @@ users_df.select('id', 'courses').show()
 # COMMAND ----------
 
 users_df.select('id', 'courses').withColumn('course_count', size('courses')).show()
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-

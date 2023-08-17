@@ -45,7 +45,3 @@ row2.name
 # COMMAND ----------
 
 row2['name']
-
-# COMMAND ----------
-
-

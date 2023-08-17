@@ -121,7 +121,3 @@ user_df.\
     drop('phone_numbers').\
     show()
 
-
-# COMMAND ----------
-
-

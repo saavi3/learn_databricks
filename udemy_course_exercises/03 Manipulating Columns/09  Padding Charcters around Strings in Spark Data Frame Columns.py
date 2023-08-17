@@ -32,7 +32,3 @@ employeeDF = spark.\
 employeeDF.\
     select(rpad('nationality', 15, '-'), lpad('phone_number', 20, '-')).\
     show()
-
-# COMMAND ----------
-
-

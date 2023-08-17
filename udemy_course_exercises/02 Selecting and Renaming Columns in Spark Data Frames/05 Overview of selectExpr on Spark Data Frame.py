@@ -31,7 +31,3 @@ spark.sql("""
     select *
     from users
 """)
-
-# COMMAND ----------
-
-

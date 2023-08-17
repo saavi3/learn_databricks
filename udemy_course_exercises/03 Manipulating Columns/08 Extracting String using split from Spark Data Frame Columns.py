@@ -77,7 +77,3 @@ employeeDF.show()
 
 employeeDF.\
     withColumn('phone_number_area_code', split('phone_number_seperated', ' ')[1]).show()
-
-# COMMAND ----------
-
-

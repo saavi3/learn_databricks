@@ -54,7 +54,3 @@ df.withColumn("Ltrim", expr("trim(LEADING ' ' FROM Dummy)")).\
     withColumn("Rtrim", expr("trim(TRAILING ' ' FROM Dummy)")).\
     withColumn("trim", expr("trim(BOTH ' ' FROM Dummy)")).\
     show()
-
-# COMMAND ----------
-
-

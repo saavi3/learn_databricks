@@ -70,7 +70,3 @@ type(user_schema)
 # COMMAND ----------
 
 spark.createDataFrame(users, schema=user_schema).show()
-
-# COMMAND ----------
-
-

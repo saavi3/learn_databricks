@@ -16,7 +16,3 @@ from pyspark.sql.functions import current_date
 # COMMAND ----------
 
 df.select(current_date().alias('current_date')).show()
-
-# COMMAND ----------
-
-

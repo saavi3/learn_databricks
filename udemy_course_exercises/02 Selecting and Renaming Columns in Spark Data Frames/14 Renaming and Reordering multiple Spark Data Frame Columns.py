@@ -29,7 +29,3 @@ users_df.\
     select(required_columns).\
     toDF(*target_column_names).\
     show()
-
-# COMMAND ----------
-
-

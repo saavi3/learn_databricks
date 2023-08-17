@@ -49,7 +49,3 @@ users_df.\
         'user_last_name'
     ).\
       show()
-
-# COMMAND ----------
-
-

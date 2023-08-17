@@ -76,7 +76,3 @@ pd.DataFrame(users)
 # COMMAND ----------
 
 spark.createDataFrame(pd.DataFrame(users)).show()
-
-# COMMAND ----------
-
-

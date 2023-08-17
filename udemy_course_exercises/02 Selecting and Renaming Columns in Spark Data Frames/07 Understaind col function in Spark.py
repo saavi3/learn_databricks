@@ -50,7 +50,3 @@ help(cast)
 
 cols = [col('id'), date_format('customer_from', 'yyyyMMdd').alias('customer_from').cast('int')]
 users_df.select(*cols).show()
-
-# COMMAND ----------
-
-

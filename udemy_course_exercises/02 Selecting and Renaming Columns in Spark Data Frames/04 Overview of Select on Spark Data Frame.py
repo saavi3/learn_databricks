@@ -51,7 +51,3 @@ users_df.createOrReplaceTempView('users')
 spark.sql("""
     select * from users
 """).show()
-
-# COMMAND ----------
-
-

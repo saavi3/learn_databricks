@@ -118,7 +118,3 @@ user_df.\
     withColumn('phone_number', explode_outer('phone_numbers')).\
     drop('phone_numbers').\
     show()
-
-# COMMAND ----------
-
-

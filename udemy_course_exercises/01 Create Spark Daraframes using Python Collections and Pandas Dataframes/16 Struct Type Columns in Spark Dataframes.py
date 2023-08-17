@@ -89,7 +89,3 @@ user_df.select('id', col('phone_numbers')['mobile'].alias('mobile'), col('phone_
 # COMMAND ----------
 
 user_df.select('id', 'phone_numbers.*').show()
-
-# COMMAND ----------
-
-

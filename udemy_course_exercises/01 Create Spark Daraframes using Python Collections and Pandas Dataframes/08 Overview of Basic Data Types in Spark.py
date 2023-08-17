@@ -77,7 +77,3 @@ user_df.columns
 # COMMAND ----------
 
 user_df.dtypes
-
-# COMMAND ----------
-
-

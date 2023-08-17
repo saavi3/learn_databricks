@@ -9,7 +9,3 @@ users_df.\
     withColumnRenamed('first_name', 'user_first_name').\
     withColumnRenamed('last_name', 'user_last_name').\
     show()
-
-# COMMAND ----------
-
-

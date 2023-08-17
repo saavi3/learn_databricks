@@ -33,7 +33,3 @@ spark.sql("""
 # COMMAND ----------
 
 users_df.selectExpr('id', 'amount_paid  +25').show()
-
-# COMMAND ----------
-
-

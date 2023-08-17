@@ -82,7 +82,3 @@ users_df = spark.createDataFrame(pd.DataFrame(users))
 # COMMAND ----------
 
 users_df.show()
-
-# COMMAND ----------
-
-

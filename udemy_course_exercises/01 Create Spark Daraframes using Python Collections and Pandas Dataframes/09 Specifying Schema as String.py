@@ -65,7 +65,3 @@ users_schema = '''
 # COMMAND ----------
 
 spark.createDataFrame(users, users_schema).show()
-
-# COMMAND ----------
-
-

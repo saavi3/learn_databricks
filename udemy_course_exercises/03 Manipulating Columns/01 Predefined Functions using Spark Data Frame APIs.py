@@ -38,7 +38,3 @@ orders.\
     count().\
     show()
 
-
-# COMMAND ----------
-
-

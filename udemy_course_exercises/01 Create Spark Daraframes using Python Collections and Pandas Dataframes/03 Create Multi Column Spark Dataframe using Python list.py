@@ -28,7 +28,3 @@ spark.createDataFrame(users_list)
 # COMMAND ----------
 
 spark.createDataFrame(users_list, 'user_id int, user_first_name string')
-
-# COMMAND ----------
-
-

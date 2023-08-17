@@ -67,7 +67,3 @@ dummy(*user_details)
 # COMMAND ----------
 
 help(Row)
-
-# COMMAND ----------
-
-

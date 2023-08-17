@@ -26,7 +26,3 @@ help(concat)
 # COMMAND ----------
 
 help(concat_ws)
-
-# COMMAND ----------
-
-
