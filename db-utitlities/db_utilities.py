@@ -4,6 +4,10 @@
 
 # COMMAND ----------
 
+dbutils.fs.help()
+
+# COMMAND ----------
+
 # MAGIC %fs
 # MAGIC ls
 
