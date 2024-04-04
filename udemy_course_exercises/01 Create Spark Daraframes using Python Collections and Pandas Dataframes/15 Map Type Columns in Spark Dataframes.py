@@ -120,4 +120,3 @@ user_df.\
     withColumnRenamed('value', 'phone_number').\
     drop('phone_numbers').\
     show()
-

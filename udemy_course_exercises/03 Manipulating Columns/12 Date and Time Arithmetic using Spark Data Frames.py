@@ -76,4 +76,3 @@ df.withColumn("months_between_date_with_round", round(months_between(current_dat
 
 # COMMAND ----------
 
-

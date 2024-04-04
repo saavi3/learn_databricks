@@ -19,4 +19,3 @@ df.select(to_date(lit('02-Mar-2021'), 'dd-MMM-yyyy')).show()
 
 # COMMAND ----------
 
-

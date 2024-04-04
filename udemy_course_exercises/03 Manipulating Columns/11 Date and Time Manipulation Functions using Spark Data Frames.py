@@ -35,4 +35,3 @@ df.select(to_timestamp(lit('20210128 1225'),'yyyyMMdd HHmm')).show()
 
 # COMMAND ----------
 
-

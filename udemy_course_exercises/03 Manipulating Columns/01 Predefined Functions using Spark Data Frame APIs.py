@@ -37,4 +37,3 @@ orders.\
     groupBy(date_format('order_date', 'yyyyMM')).\
     count().\
     show()
-

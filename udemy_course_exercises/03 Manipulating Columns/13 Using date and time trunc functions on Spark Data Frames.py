@@ -65,4 +65,3 @@ df.withColumn("to_date", to_date(col("date"))).show()
 
 # COMMAND ----------
 
-

@@ -38,4 +38,3 @@ df.select(F.current_timestamp().alias('current_date'),
 
 # COMMAND ----------
 
-

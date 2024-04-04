@@ -144,4 +144,3 @@ employeesDF.fillna(0.0, 'salary').fillna('na', 'last_name').show()
 
 # COMMAND ----------
 
-
